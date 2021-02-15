@@ -37,6 +37,7 @@ input {
 }
 
 .data {
+	margin-bottom: 1rem;
 	padding: 2rem;
 	background-color:lightcyan;
 	border: 1px solid #ccc;

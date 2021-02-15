@@ -6,7 +6,6 @@ const getData = () => {
 
 const sendData = async () => {
     const data = getData();
-    console.log(`sending message: ${data}`);
     
     const options = {
         method: 'POST',
