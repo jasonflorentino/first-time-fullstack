@@ -9,6 +9,11 @@ body {
 	color: #333333;
 }
 
+p {
+	margin: 0;
+	margin-bottom: .5rem;
+}
+
 form {
 	padding: 1rem;
 	background-color: lavender;
@@ -29,5 +34,26 @@ input {
 	min-width: 3rem;
 	border: 1px solid #ccc;
 	border-radius: .25rem;
+}
+
+.data {
+	padding: 2rem;
+	background-color:lightcyan;
+	border: 1px solid #ccc;
+	border-radius: .5rem;
+}
+
+.data__label {
+	margin-bottom: .15rem;
+	font-size: .8rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #888;
+}
+
+.data__text {
+	margin-bottom: 1rem;
+	font-size: 1.8rem;
 }
 
