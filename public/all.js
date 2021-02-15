@@ -43,7 +43,10 @@ function displayItem(item) {
 
     const timeData = document.createElement("p");
     timeData.classList.add("data__text");
-    timeData.innerText = item.timestamp;
+    const dateObj = new Date(item.timestamp)
+    const dateString = dateObj.toLocaleDateString();
+    const timeString = dateObj.toLocaleTimeString();
+    timeData.innerText = `${dateString} @ ${timeString}`;
     container.appendChild(timeData);
     
     dest.appendChild(container);
