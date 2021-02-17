@@ -14,6 +14,12 @@ p {
 	margin-bottom: .5rem;
 }
 
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
 form {
 	padding: 1rem;
 	background-color: lavender;
@@ -34,6 +40,33 @@ input {
 	min-width: 3rem;
 	border: 1px solid #ccc;
 	border-radius: .25rem;
+}
+
+.nav {
+	margin-bottom: 1rem;
+}
+
+.nav__list {
+	display: flex;
+}
+
+.nav__item {
+	padding: .8rem;
+	margin-right: 1rem;
+	background-color: lavender;
+	border-radius: .25rem;
+}
+
+.nav__link {
+	text-decoration: none;
+}
+
+.nav__link:hover {
+	text-decoration: underline;
+}
+
+.nav__link:visited {
+	color: inherit;
 }
 
 .data {
